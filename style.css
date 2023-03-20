@@ -21,9 +21,30 @@ ul{
     gap: 16px;
     
 }
-
+p{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 a{
     color: white;
     text-decoration: none;
    
+}
+.main-tex{
+    display: flex;
+    flex: 1;
+}
+.left-text{
+    justify-content: end;
+    align-items: end;
+}
+.Cabezera{
+    font-size: 48px;
 }
