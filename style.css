@@ -1,0 +1,29 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+}
+.logo{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+ul{
+    flex: 1;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+   
+}
