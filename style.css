@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     background-color: #1f2937;
+    
 }
 .logo{
     display: flex;
@@ -26,6 +27,7 @@ p{
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    color: #f9faf8;
 }
 button{
     display: flex;
@@ -33,17 +35,20 @@ button{
     justify-content: center;
 }
 a{
-    color: white;
+    color: #f9faf8;
     text-decoration: none;
    
 }
 .main-tex{
+    background-color: #1f2937;
     display: flex;
     flex: 1;
+    justify-content: space-between;
+    gap: 16px;
 }
-.left-text{
-    justify-content: end;
-    align-items: end;
+.left-text,.right-image{
+    display: flex;
+    flex: 1;
 }
 .Cabezera{
     font-size: 48px;
