@@ -130,3 +130,12 @@ ul{
     font-weight: bold;
     font-size: 26px;
 }
+/* footer */
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem ;
+}
