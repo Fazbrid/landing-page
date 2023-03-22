@@ -73,3 +73,37 @@ ul{
 .right .texto{
     font-size: 18px;
 }
+/* Texto medio  */
+.medio{
+    display: flex;
+    flex-direction: column;
+}
+.medio .titulo{
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+.fotos{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.fotos .container{
+    flex-grow: 0;
+}
+.container .card{
+    height: 140px;
+    width: 140px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 15px;
+    
+}
+
+.container .text{
+    height: 140px;
+    width: 140px;
+    color: gray;
+    padding-top: 15px;
+}
