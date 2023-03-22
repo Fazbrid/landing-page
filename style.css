@@ -130,6 +130,33 @@ ul{
     font-weight: bold;
     font-size: 26px;
 }
+/* inscribirse */
+.inscribete{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inscribete .cuadro{
+    height: 150px;
+    width: 900px;
+    border-style: solid;
+    background-color: rgb(20, 69, 228);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.button-der .sign-up2 {
+    padding: 2px 25px;
+    color: white;
+    background-color: rgb(20, 69, 228);
+    border-style: solid;
+    border-color: white;
+    border-radius: 24px;
+
+}
 /* footer */
 .footer{
     display: flex;
